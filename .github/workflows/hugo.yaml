@@ -59,8 +59,8 @@ jobs:
           hugo \
             --gc \
             --minify \
-            -t hello-friend-ng \   
-            -D \
+            --theme strings "hello-friend-ng" \   
+            --buildDrafts \
             --baseURL "${{ steps.pages.outputs.base_url }}/"   
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
