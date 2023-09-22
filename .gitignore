@@ -1,0 +1,14 @@
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+
+node_modules
+dist
+tmp
+
+/public/
+resources/_gen/*
+
+hugo.exe
+hugo.linux
+hugo.darwin
