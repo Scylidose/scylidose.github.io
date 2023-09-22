@@ -59,7 +59,7 @@ jobs:
           hugo \
             --gc \
             --minify \
-            --theme strings "hello-friend-ng" \   
+            --theme "hello-friend-ng" \   
             --buildDrafts \
             --baseURL "${{ steps.pages.outputs.base_url }}/"   
       - name: Upload artifact
