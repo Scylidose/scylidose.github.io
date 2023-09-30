@@ -1,14 +1,16 @@
-# Ignore OS-generated files
-.DS_Store
-Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
 
-node_modules
-dist
-tmp
+*.DS_Store
+*.user
+*.userosscache
+*.suo
+*.Windows
+*.rider
+*.userprefs
 
-/public/
-resources/_gen/*
-
-hugo.exe
-hugo.linux
-hugo.darwin
+.env
+.eslintcache
